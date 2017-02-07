@@ -3,25 +3,34 @@
 <head>
 	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
 	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 	
 	
-	<title>CrystalsCollector!</title>
+	<title>Kittens!</title>
 </head>
 
 <body>
 	<script type="text/javascript" src="assets/javascript/game.js"></script>
-	<h1>Crystals Collector!</h1>
-	<p>You will be given a random number at the start of the game.</p>
-	<p> There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.</p>
-	<p>You win the game by matching your total score to the random number. You lose the game if your total score goes above the random number.</p>
-	<p>The value of each crystal is hidden from you until you click on it.</p>
-	<p>Each time when the game starts, the game will change the values of each crystal.</p>
+	<div row id="textrow">
+
+	<div class="jumbotron">
+  <h1>Too Fluffy!</h1>
+  <p>You will be given a random fluffy number at the start of the game.</p>
+	<p> There are four kittens below. By clicking on a kittens you will add a specific amount of fluffiness to your total score.</p>
+	<p>You win the game by matching your total score to the random number. You lose the game if your total fluffiness score goes above the random fluffy number. Too fluffy!</p>
+	<p>The fluffiness of each kitten is hidden from you until you click on it.</p>
+	<p>Each time when the game starts, the game will change the fluffiness of each kitten.</p>
+
+	</div>
+	
+	
+	</div>
 	<div class=row>
 		<div class="col-md-3">
 			<div class="panel panel-primary">
 			  <div class="panel-heading">
-			    <h3 class="panel-title">Diamonds</h3>
+			    <h3 class="panel-title">Random fluffy number!</h3>
 			  </div>
 			  <div class="panel-body" id="randomInt">
 				
@@ -39,7 +48,7 @@
 			</div>
 		</div>
 	</div>
-	<div class="crystals">
+	<div row class="crystals">
 	<div class="btn-group" role="group" aria-label="...">
 	  <button type="button" class="btn btn-default" id="crystalone"><img src="assets/images/pink.jpg" style="width:200px;height:200px;"></button>
 	  <button type="button" class="btn btn-default" id="crystaltwo"><img src="assets/images/blue.jpg" style="width:200px;height:200px;"></button>
